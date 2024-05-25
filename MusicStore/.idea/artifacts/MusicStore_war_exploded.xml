@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="MusicStore:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MusicStore_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="webapp">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/webapp" />
+      </element>
+    </root>
+  </artifact>
+</component>
