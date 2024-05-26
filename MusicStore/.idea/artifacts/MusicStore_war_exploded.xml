@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="MusicStore:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/MusicStore_war_exploded</output-path>
-    <root id="root">
-      <element id="directory" name="webapp" />
-    </root>
-  </artifact>
-</component>
