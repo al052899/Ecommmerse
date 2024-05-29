@@ -1,8 +1,4 @@
-<%-- 
-    Document   : ventanaCarrito
-    Created on : 13 may 2023, 23:13:24
-    Author     : Half
---%>
+
 
 <%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

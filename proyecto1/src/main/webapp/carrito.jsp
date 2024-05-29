@@ -1,8 +1,3 @@
-<%-- 
-    Document   : carrito
-    Created on : 13 may 2023, 22:43:06
-    Author     : Half
---%>
 
 <%@page import="java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

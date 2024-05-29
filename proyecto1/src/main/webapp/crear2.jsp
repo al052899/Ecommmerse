@@ -1,8 +1,4 @@
-<%-- 
-    Document   : crear
-    Created on : 19 abr. 2023, 15:01:17
-    Author     : leotu
---%>
+
 
 <%@page import="java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

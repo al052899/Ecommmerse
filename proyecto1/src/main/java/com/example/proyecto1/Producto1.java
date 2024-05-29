@@ -4,10 +4,7 @@
  */
 package com.example.proyecto1;
 
-/**
- *
- * @author Half
- */
+
 public class Producto1 {
 
     private int id;

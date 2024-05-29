@@ -1,8 +1,4 @@
-<%-- 
-    Document   : crear
-    Created on : 28 mar. 2023, 15:01:17
-    Author     : AdrianPacheco
---%>
+
 
 <%@page import="java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

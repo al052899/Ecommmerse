@@ -1,8 +1,4 @@
-<%-- 
-    Document   : modalCarrito
-    Created on : 13 may 2023, 22:55:21
-    Author     : Half
---%>
+
 
 <%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

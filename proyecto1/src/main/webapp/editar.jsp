@@ -1,8 +1,3 @@
-<%-- 
-    Document   : editar
-    Created on : 18 abr. 2023, 16:33:25
-    Author     : leotu
---%>
 
 <%@page import="java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

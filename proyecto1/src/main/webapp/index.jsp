@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : 14 may 2023, 0:03:16
-    Author     : Half
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ page import="com.example.proyecto1.LoginDAO" %>

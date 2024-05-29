@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index2
-    Created on : 19 abr 2023, 13:20:29
-    Author     : leotu
---%>
+
 <%@page import="java.util.List"%>
 <%@page import="com.example.proyecto1.Crud"%>
 <%@page import="com.example.proyecto1.Producto"%>

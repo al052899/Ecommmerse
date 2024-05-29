@@ -1,8 +1,4 @@
-<%-- 
-    Document   : buscar
-    Created on : 20 abr. 2023, 21:31:42
-    Author     : leotu
---%>
+
 
 <%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
