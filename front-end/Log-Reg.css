@@ -6,37 +6,64 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: #88A26E;
+    background: #7B8D69;
+    overflow: auto; /* Permite el desplazamiento cuando los elementos no caben en la ventana */
+}
+
+.video-bg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Asegura que esté detrás del contenido */
+}
+
+#bgVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    filter: blur(10px); /* Aplica desenfoque al video */
 }
 
 .login-page {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    margin: 20px; /* Añade un margen alrededor del contenedor */
 }
 
 .logo-container {
     text-align: center;
-    margin-bottom: 20px; /* Ajusta el margen según sea necesario */
+    margin: 20px; /* Ajusta el margen según sea necesario */
 }
 
 .logo {
     max-width: 30%; /* Asegura que el logo sea responsivo */
     height: auto;
+    width: auto;
     border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 1); 
 }
 
 .form {
     position: relative;
     z-index: 1;
-    background: #FFFFFF;
-    max-width: 400px;
-    margin: 0 auto 100px;
-    padding: 45px;
+    background: rgba(255, 255, 255, 1); /* Fondo semi-transparente para el formulario */
+    max-width: 400px; /* Asegura que el formulario sea responsivo */
+    width: 100%;
+    padding: 40px;
     text-align: center;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    border-radius: 10px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 1); 
+    margin-bottom: 20px; /* Espacio inferior para el formulario */
 }
 
 .form input {
@@ -44,30 +71,30 @@ body {
     outline: 0;
     background: #f2f2f2;
     width: 100%;
-    border: 0;
+    border: 1px solid #ccc; /* Ajusta el borde según sea necesario */
     border-radius: 7px;
-    margin: 0 0 15px;
-    padding: 15px;
+    margin: 0 0 16px;
+    padding: 15px; /* Ajusta el padding según sea necesario */
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .form button {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background: #88A26E;
+    background: #7B8D69;
     width: 100%;
     border: 0;
-    padding: 15px;
+    padding: 15px; /* Ajusta el padding según sea necesario */
     color: #FFFFFF;
     border-radius: 7px;
-    font-size: 14px;
+    font-size: 16px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
-.form button:hover,.form button:active,.form button:focus {
-    background: #88A26E;
+.form button:hover, .form button:active, .form button:focus {
+    background: #48533e;
 }

@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GuanacoY2K Music Center</title>
+    <title>The Chilled Pug Music Center</title>
     <link rel="stylesheet" href="Log-Reg.css">
     <script defer src="login.js"></script>
 </head>
 <body>
 
+<!-- Contenedor para el video de fondo -->
+<div class="video-bg-container">
+    <video autoplay muted loop id="bgVideo">
+        <source src="resources/Y2K Retro-Futuristic.mp4" type="video/mp4">
+        Tu navegador no soporta el video en HTML5.
+    </video>
+</div>
+
 <div class="login-page">
     <div class="logo-container">
-        <img src="resources\Guanaco Y2K white.png" alt="Logo de GuanacoY2K Music Center" class="logo">
+        <a href="Tienda.html">
+            <img src="resources\the chilled pug white.png" alt="Logo de GuanacoY2K Music Center" class="logo">
+        </a>
     </div>
     <div class="form">
         <h2>Iniciar sesión</h2>
@@ -25,5 +35,6 @@
 </div>
 
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 </html>
