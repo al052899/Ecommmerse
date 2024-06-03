@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const userObj = JSON.parse(user);
         const saludoElement = document.getElementById('saludo');
         if (saludoElement) {
-            saludoElement.textContent = `¡Bienvenid@, ${userObj.username}! Tu ID de usuario es ${userObj.id}.`;
+            saludoElement.textContent = `¡Bienvenid@, ${userObj.username}!`;
         }
     }
 });

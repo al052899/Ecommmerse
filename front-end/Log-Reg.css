@@ -4,11 +4,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     background: #7B8D69;
-    overflow: auto; /* Permite el desplazamiento cuando los elementos no caben en la ventana */
+ /* Permite el desplazamiento cuando los elementos no caben en la ventana */
 }
 
 .video-bg-container {
@@ -31,43 +30,44 @@ body {
     height: auto;
     transform: translate(-50%, -50%);
     filter: blur(30px);
-    opacity: 90%;
+    opacity: 80%;
 }
 
 .login-page {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    max-width: 400px; /* Limita el ancho máximo para mantener la responsividad */
+    padding: 0;
+    align-items: center; /* Limita el ancho máximo para mantener la responsividad */
     width: 100%;
-    margin: 0 auto; /* Centra el contenido horizontalmente */
     z-index: 2;
     justify-content: center;
 }
 
 .logo-container {
     text-align: center;
-    margin-bottom: 20px;
+    margin : 20px;
+    
 }
 
 .logo {
-    max-width: 100%; /* Hace que el logo sea responsivo */
-    height: auto;
-    width: auto;
+    width: 100%; /* Hace que el logo sea responsivo */
+    max-width: 20%; /* Ajuste máximo de ancho relativo */
+    min-width: 180px;
     border-radius: 50%;
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
 }
 
 .form {
+    font-family: "Poppins", sans-serif;
     background: rgba(255, 255, 255, 1);
-    max-width: 400px;
-    width: 100%;
-    padding: 10%;
+    width: 100%; /* Ancho relativo */
+    max-width: 280px; /* Límite máximo */
+    padding: 24px;
     text-align: center;
     border-radius: 5%;
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
-    margin-bottom: 20px;
+    font-size: 14px;
+    margin-bottom: 50px; /* Agrega margen inferior para evitar solapamiento con el footer */
 }
 
 .form input {
@@ -77,8 +77,8 @@ body {
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 7px;
-    margin: 0 0 16px;
-    padding: 15px;
+    margin: 0px 0px 5%;
+    padding: 8px;
     box-sizing: border-box;
     font-size: 16px;
 }
@@ -90,7 +90,7 @@ body {
     background: #7B8D69;
     width: 100%;
     border: 0;
-    padding: 15px;
+    padding: 12px;
     color: #FFFFFF;
     border-radius: 7px;
     font-size: 16px;
@@ -104,13 +104,12 @@ body {
 }
 
 .footer {
+    font-family: "Poppins", sans-serif;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: auto;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 6px 0%;
     z-index: 3;
 }

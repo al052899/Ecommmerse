@@ -44,9 +44,9 @@ class ArticuloController {
             .then(response => response.json())
             .then(data => {
                 this.imagenArticuloElement.innerHTML = `<img src="${data.data.galeriaFotos.split(',')[0].trim()}" alt="${data.data.titulo}">`;
-                this.descripcionArticuloElement.innerHTML = `<p>${data.data.descripcion}</p>`;
+                this.descripcionArticuloElement.innerHTML = `<p>${data.data.titulo}</p>`;
                 this.costoArticuloElement.innerHTML = `<p>$${data.data.precio.toFixed(2)}</p>` + `<p>Cantidad disponible: ${data.data.cantidadDisponible}</p>`;
-                this.especificacionesArticuloElement.innerHTML = `<p>${data.data.titulo}</p><br><p>${data.data.especificaciones}</p>`;
+                this.especificacionesArticuloElement.innerHTML = `<p>${data.data.especificaciones}</p><br><p>${data.data.descripcion}</p>`;
 
                 this.createCarousel(data.data.galeriaFotos.split(','));
 
